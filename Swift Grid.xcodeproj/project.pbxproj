@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		266BDC3F1EB9AB660087FEAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266BDC3E1EB9AB660087FEAD /* AppDelegate.swift */; };
+		266BDC411EB9AB660087FEAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266BDC401EB9AB660087FEAD /* ViewController.swift */; };
+		266BDC441EB9AB660087FEAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266BDC421EB9AB660087FEAD /* Main.storyboard */; };
+		266BDC461EB9AB660087FEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 266BDC451EB9AB660087FEAD /* Assets.xcassets */; };
+		266BDC491EB9AB660087FEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266BDC471EB9AB660087FEAD /* LaunchScreen.storyboard */; };
+		266BDC541EB9AB660087FEAD /* Swift_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266BDC531EB9AB660087FEAD /* Swift_GridTests.swift */; };
+		266BDC5F1EB9AB660087FEAD /* Swift_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266BDC5E1EB9AB660087FEAD /* Swift_GridUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		266BDC501EB9AB660087FEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266BDC331EB9AB660087FEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266BDC3A1EB9AB660087FEAD;
+			remoteInfo = "Swift Grid";
+		};
+		266BDC5B1EB9AB660087FEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 266BDC331EB9AB660087FEAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 266BDC3A1EB9AB660087FEAD;
+			remoteInfo = "Swift Grid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		266BDC3B1EB9AB660087FEAD /* Swift Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266BDC3E1EB9AB660087FEAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		266BDC401EB9AB660087FEAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		266BDC431EB9AB660087FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		266BDC451EB9AB660087FEAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		266BDC481EB9AB660087FEAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		266BDC4A1EB9AB660087FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266BDC4F1EB9AB660087FEAD /* Swift GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266BDC531EB9AB660087FEAD /* Swift_GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GridTests.swift; sourceTree = "<group>"; };
+		266BDC551EB9AB660087FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266BDC5A1EB9AB660087FEAD /* Swift GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		266BDC5E1EB9AB660087FEAD /* Swift_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_GridUITests.swift; sourceTree = "<group>"; };
+		266BDC601EB9AB660087FEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		266BDC381EB9AB660087FEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC4C1EB9AB660087FEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC571EB9AB660087FEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266BDC321EB9AB660087FEAD = {
+			isa = PBXGroup;
+			children = (
+				266BDC3D1EB9AB660087FEAD /* Swift Grid */,
+				266BDC521EB9AB660087FEAD /* Swift GridTests */,
+				266BDC5D1EB9AB660087FEAD /* Swift GridUITests */,
+				266BDC3C1EB9AB660087FEAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		266BDC3C1EB9AB660087FEAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				266BDC3B1EB9AB660087FEAD /* Swift Grid.app */,
+				266BDC4F1EB9AB660087FEAD /* Swift GridTests.xctest */,
+				266BDC5A1EB9AB660087FEAD /* Swift GridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		266BDC3D1EB9AB660087FEAD /* Swift Grid */ = {
+			isa = PBXGroup;
+			children = (
+				266BDC3E1EB9AB660087FEAD /* AppDelegate.swift */,
+				266BDC401EB9AB660087FEAD /* ViewController.swift */,
+				266BDC421EB9AB660087FEAD /* Main.storyboard */,
+				266BDC451EB9AB660087FEAD /* Assets.xcassets */,
+				266BDC471EB9AB660087FEAD /* LaunchScreen.storyboard */,
+				266BDC4A1EB9AB660087FEAD /* Info.plist */,
+			);
+			path = "Swift Grid";
+			sourceTree = "<group>";
+		};
+		266BDC521EB9AB660087FEAD /* Swift GridTests */ = {
+			isa = PBXGroup;
+			children = (
+				266BDC531EB9AB660087FEAD /* Swift_GridTests.swift */,
+				266BDC551EB9AB660087FEAD /* Info.plist */,
+			);
+			path = "Swift GridTests";
+			sourceTree = "<group>";
+		};
+		266BDC5D1EB9AB660087FEAD /* Swift GridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				266BDC5E1EB9AB660087FEAD /* Swift_GridUITests.swift */,
+				266BDC601EB9AB660087FEAD /* Info.plist */,
+			);
+			path = "Swift GridUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		266BDC3A1EB9AB660087FEAD /* Swift Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266BDC631EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift Grid" */;
+			buildPhases = (
+				266BDC371EB9AB660087FEAD /* Sources */,
+				266BDC381EB9AB660087FEAD /* Frameworks */,
+				266BDC391EB9AB660087FEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Grid";
+			productName = "Swift Grid";
+			productReference = 266BDC3B1EB9AB660087FEAD /* Swift Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		266BDC4E1EB9AB660087FEAD /* Swift GridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266BDC661EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridTests" */;
+			buildPhases = (
+				266BDC4B1EB9AB660087FEAD /* Sources */,
+				266BDC4C1EB9AB660087FEAD /* Frameworks */,
+				266BDC4D1EB9AB660087FEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266BDC511EB9AB660087FEAD /* PBXTargetDependency */,
+			);
+			name = "Swift GridTests";
+			productName = "Swift GridTests";
+			productReference = 266BDC4F1EB9AB660087FEAD /* Swift GridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		266BDC591EB9AB660087FEAD /* Swift GridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 266BDC691EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridUITests" */;
+			buildPhases = (
+				266BDC561EB9AB660087FEAD /* Sources */,
+				266BDC571EB9AB660087FEAD /* Frameworks */,
+				266BDC581EB9AB660087FEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				266BDC5C1EB9AB660087FEAD /* PBXTargetDependency */,
+			);
+			name = "Swift GridUITests";
+			productName = "Swift GridUITests";
+			productReference = 266BDC5A1EB9AB660087FEAD /* Swift GridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		266BDC331EB9AB660087FEAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yoel Lev";
+				TargetAttributes = {
+					266BDC3A1EB9AB660087FEAD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7MC85J6Z5Y;
+						ProvisioningStyle = Automatic;
+					};
+					266BDC4E1EB9AB660087FEAD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7MC85J6Z5Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 266BDC3A1EB9AB660087FEAD;
+					};
+					266BDC591EB9AB660087FEAD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7MC85J6Z5Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 266BDC3A1EB9AB660087FEAD;
+					};
+				};
+			};
+			buildConfigurationList = 266BDC361EB9AB660087FEAD /* Build configuration list for PBXProject "Swift Grid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 266BDC321EB9AB660087FEAD;
+			productRefGroup = 266BDC3C1EB9AB660087FEAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				266BDC3A1EB9AB660087FEAD /* Swift Grid */,
+				266BDC4E1EB9AB660087FEAD /* Swift GridTests */,
+				266BDC591EB9AB660087FEAD /* Swift GridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		266BDC391EB9AB660087FEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BDC491EB9AB660087FEAD /* LaunchScreen.storyboard in Resources */,
+				266BDC461EB9AB660087FEAD /* Assets.xcassets in Resources */,
+				266BDC441EB9AB660087FEAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC4D1EB9AB660087FEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC581EB9AB660087FEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		266BDC371EB9AB660087FEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BDC411EB9AB660087FEAD /* ViewController.swift in Sources */,
+				266BDC3F1EB9AB660087FEAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC4B1EB9AB660087FEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BDC541EB9AB660087FEAD /* Swift_GridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		266BDC561EB9AB660087FEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BDC5F1EB9AB660087FEAD /* Swift_GridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		266BDC511EB9AB660087FEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266BDC3A1EB9AB660087FEAD /* Swift Grid */;
+			targetProxy = 266BDC501EB9AB660087FEAD /* PBXContainerItemProxy */;
+		};
+		266BDC5C1EB9AB660087FEAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 266BDC3A1EB9AB660087FEAD /* Swift Grid */;
+			targetProxy = 266BDC5B1EB9AB660087FEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		266BDC421EB9AB660087FEAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266BDC431EB9AB660087FEAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		266BDC471EB9AB660087FEAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				266BDC481EB9AB660087FEAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		266BDC611EB9AB660087FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		266BDC621EB9AB660087FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		266BDC641EB9AB660087FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		266BDC651EB9AB660087FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		266BDC671EB9AB660087FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift GridTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Grid.app/Swift Grid";
+			};
+			name = Debug;
+		};
+		266BDC681EB9AB660087FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift GridTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Grid.app/Swift Grid";
+			};
+			name = Release;
+		};
+		266BDC6A1EB9AB660087FEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift GridUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Grid";
+			};
+			name = Debug;
+		};
+		266BDC6B1EB9AB660087FEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7MC85J6Z5Y;
+				INFOPLIST_FILE = "Swift GridUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yoelev.Swift-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Grid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		266BDC361EB9AB660087FEAD /* Build configuration list for PBXProject "Swift Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266BDC611EB9AB660087FEAD /* Debug */,
+				266BDC621EB9AB660087FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		266BDC631EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266BDC641EB9AB660087FEAD /* Debug */,
+				266BDC651EB9AB660087FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		266BDC661EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266BDC671EB9AB660087FEAD /* Debug */,
+				266BDC681EB9AB660087FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		266BDC691EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				266BDC6A1EB9AB660087FEAD /* Debug */,
+				266BDC6B1EB9AB660087FEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 266BDC331EB9AB660087FEAD /* Project object */;
+}
