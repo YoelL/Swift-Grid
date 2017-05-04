@@ -514,6 +514,7 @@
 				266BDC651EB9AB660087FEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		266BDC661EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				266BDC681EB9AB660087FEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		266BDC691EB9AB660087FEAD /* Build configuration list for PBXNativeTarget "Swift GridUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				266BDC6B1EB9AB660087FEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

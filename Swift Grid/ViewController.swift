@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+     let numOfCellPerRow = 15
+        var cells = [String:UIView]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +26,7 @@ class ViewController: UIViewController {
     
     
     func setupGrid(){
-        let numOfCellPerRow = 15
+       
         let width = view.frame.width / CGFloat(numOfCellPerRow)
         
         for row in 0...30 {
@@ -35,6 +38,10 @@ class ViewController: UIViewController {
                 cellview.layer.borderColor = UIColor.black.cgColor
                 cellview.layer.borderWidth = 0.5
                 view.addSubview(cellview)
+                
+                let key = "\(col)|\(row)"
+                cells[key] = cellview
+                
             }
         }
         
@@ -56,6 +63,22 @@ class ViewController: UIViewController {
     func handlePan(gesture:UIPanGestureRecognizer){
         let location = gesture.location(in: view)
         print(location)
+        
+         let width = view.frame.width / CGFloat(numOfCellPerRow)
+        
+        let col = Int(location.x / width)
+        let row = Int(location.y / width)
+        let key = "\(col)|\(row)"
+        let cellView = cells[key]
+        cellView?.backgroundColor = UIColor.black
+        
+        
+        
+        
+        
+        
+        
+        
     
     }
     
