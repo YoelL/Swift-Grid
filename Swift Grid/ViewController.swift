@@ -69,16 +69,23 @@ class ViewController: UIViewController {
         let col = Int(location.x / width)
         let row = Int(location.y / width)
         let key = "\(col)|\(row)"
-        let cellView = cells[key]
-        cellView?.backgroundColor = UIColor.black
+        
+        //cellView?.backgroundColor = UIColor.black
+        
+        guard let cellView = cells[key] else {
+            return
+        }
+        
+        view.bringSubview(toFront: cellView)
+        
+        UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: { 
+            cellView.layer.transform = CATransform3DMakeTranslation(3, 3, 3)
+        }, completion: nil)
         
         
         
         
-        
-        
-        
-        
+  
     
     }
     
