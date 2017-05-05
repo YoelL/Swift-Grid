@@ -60,6 +60,11 @@ class ViewController: UIViewController {
         return UIColor(red: red, green: green, blue: blue, alpha: 1)
     }
     
+    
+    var selectedCell:UIView?
+    
+    
+    
     func handlePan(gesture:UIPanGestureRecognizer){
         let location = gesture.location(in: view)
         print(location)
@@ -76,13 +81,33 @@ class ViewController: UIViewController {
             return
         }
         
+        if selectedCell != cellView {
+            
+            UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: {
+               self.selectedCell?.layer.transform = CATransform3DIdentity
+            }, completion: nil)
+        }
+        
+        selectedCell = cellView
+        
         view.bringSubview(toFront: cellView)
         
         UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: { 
             cellView.layer.transform = CATransform3DMakeTranslation(3, 3, 3)
         }, completion: nil)
         
+        if gesture.state == .ended {
         
+            UIView.animate(withDuration: 0.5, delay: 0.25,usingSpringWithDamping:0.25,initialSpringVelocity:0.25, options: .curveEaseOut, animations: {
+                cellView.layer.transform = CATransform3DIdentity
+                
+            } , completion: { (_) in
+                
+                    
+            })
+        
+        
+        }
         
         
   
