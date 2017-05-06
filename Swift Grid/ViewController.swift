@@ -50,26 +50,13 @@ class ViewController: UIViewController {
         
     }
     
-    
-    func randomColor() -> UIColor {
-    
-        let red     = CGFloat(drand48())
-        let green   = CGFloat(drand48())
-        let blue    = CGFloat(drand48())
-        
-        return UIColor(red: red, green: green, blue: blue, alpha: 1)
-    }
-    
-    
-    var selectedCell:UIView?
-    
-    
+     var selectedCell:UIView?
     
     func handlePan(gesture:UIPanGestureRecognizer){
         let location = gesture.location(in: view)
         print(location)
         
-         let width = view.frame.width / CGFloat(numOfCellPerRow)
+        let width = view.frame.width / CGFloat(numOfCellPerRow)
         
         let col = Int(location.x / width)
         let row = Int(location.y / width)
@@ -84,7 +71,7 @@ class ViewController: UIViewController {
         if selectedCell != cellView {
             
             UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: {
-               self.selectedCell?.layer.transform = CATransform3DIdentity
+                self.selectedCell?.layer.transform = CATransform3DIdentity
             }, completion: nil)
         }
         
@@ -92,27 +79,41 @@ class ViewController: UIViewController {
         
         view.bringSubview(toFront: cellView)
         
-        UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: { 
-            cellView.layer.transform = CATransform3DMakeTranslation(3, 3, 3)
+        UIView.animate(withDuration: 0.5, delay: 0,usingSpringWithDamping:1,initialSpringVelocity:1, options: .curveEaseOut, animations: {
+            cellView.layer.transform = CATransform3DMakeScale(3, 3, 3)
         }, completion: nil)
         
         if gesture.state == .ended {
-        
-            UIView.animate(withDuration: 0.5, delay: 0.25,usingSpringWithDamping:0.25,initialSpringVelocity:0.25, options: .curveEaseOut, animations: {
+            
+            UIView.animate(withDuration: 0.5, delay: 0.25,usingSpringWithDamping:0.5,initialSpringVelocity:0.5, options: .curveEaseOut, animations: {
                 cellView.layer.transform = CATransform3DIdentity
                 
             } , completion: { (_) in
                 
-                    
+                
             })
         
-        
         }
-        
-        
   
-    
     }
+    
+    
+    
+    func randomColor() -> UIColor {
+    
+        let red     = CGFloat(drand48())
+        let green   = CGFloat(drand48())
+        let blue    = CGFloat(drand48())
+        
+        return UIColor(red: red, green: green, blue: blue, alpha: 1)
+    }
+    
+    
+   
+    
+    
+    
+
     
 
 
